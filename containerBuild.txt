@@ -1,2 +1,2 @@
-docker build -t NodeAPICallsCosmosDB:latest .
-docker run -p 8080:8080 NodeAPICallsCosmosDB:latest
+docker build -t nodeapicallscosmosdb:latest .
+docker run -p 8080:8080 nodeapicallscosmosdb:latest
