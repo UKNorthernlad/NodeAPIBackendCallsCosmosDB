@@ -1,2 +1,4 @@
 docker build -t nodeapicallscosmosdb:latest .
 docker run -p 8080:8080 nodeapicallscosmosdb:latest
+docker tag nodeapicallscosmosdb:latest XXXXXX/nodeapicallscosmosdb:latest
+docker push XXXXXX/nodeapicallscosmosdb:latest
