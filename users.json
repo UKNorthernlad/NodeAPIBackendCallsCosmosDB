@@ -3,20 +3,31 @@
     "name": "Fred Flintstone",
     "password": "AAAAAA",
     "profession": "Bronto Crane Operator",
-    "id": 1
+    "id": 1,
+    "chickenFights" : false
   },
 
   {
     "name": "Bart Simpson",
     "password": "BBBBBB",
     "profession": "School boy",
-    "id": 2
+    "id": 2,
+    "chickenFights" : false
+  },
+
+  {
+    "name": "Pink Panther",
+    "password": "CCCCCC",
+    "profession": "Cool Dude",
+    "id": 15,
+    "chickenFights" : false
   },
 
   {
     "name": "Peter Griffin",
     "password": "CCCCCC",
     "profession": "Brewery shipping clerk",
-    "id": 3
+    "id": 10,
+    "chickenFights" : true
   }
 ]
