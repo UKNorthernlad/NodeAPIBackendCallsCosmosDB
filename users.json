@@ -1,22 +1,22 @@
 [
   {
-    "name": "userblah1",
+    "name": "Fred Flintstone",
     "password": "AAAAAA",
-    "profession": "prof1",
+    "profession": "Bronto Crane Operator",
     "id": 1
   },
 
   {
-    "name": "userblah2",
+    "name": "Bart Simpson",
     "password": "BBBBBB",
-    "profession": "prof2",
+    "profession": "School boy",
     "id": 2
   },
 
   {
-    "name": "userblah3",
+    "name": "Peter Griffin",
     "password": "CCCCCC",
-    "profession": "prof3",
+    "profession": "Brewery shipping clerk",
     "id": 3
   }
 ]
