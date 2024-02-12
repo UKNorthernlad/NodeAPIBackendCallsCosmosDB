@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
+var cors = require('cors')
 var fs = require("fs");
+
+// This enables CORS for all routes - See https://github.com/expressjs/cors?tab=readme-ov-file#installation for other configuration options.
+app.use(cors())
 
 app.get('/listUsers', function (req, res) {
    fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {

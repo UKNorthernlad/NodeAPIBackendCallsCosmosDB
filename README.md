@@ -8,6 +8,7 @@ choco install node.install
 npm init
 
 npm install express@latest
+npm install cors@latest
 
 \\ To run the server - http://localhost:8080/listusers
 node server.js
